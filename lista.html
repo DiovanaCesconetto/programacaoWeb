@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela de Preços de Medicamentos</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fa;
+        }
+
+        .container {
+            margin-top: 50px;
+        }
+
+        .table-custom {
+            border-radius: 10px;
+            overflow: hidden;
+            background-color: #fff;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+        }
+
+        .table-custom th, .table-custom td {
+            border-top: none;
+            border-bottom: 1px solid #dee2e6;
+        }
+
+        .table-custom thead th {
+            background-color: #28a745;
+            color: white;
+            border-color: #28a745;
+            text-align: center;
+            vertical-align: middle;
+        }
+
+        .table-custom tbody tr:hover {
+            background-color: #f1f1f1;
+        }
+
+        .table-custom tbody tr:nth-child(even) {
+            background-color: #f8f9fa;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="text-center">Tabela de Preços de Medicamentos</h1>
+        <div class="table-responsive">
+            <table class="table table-striped table-hover table-custom">
+                <thead>
+                    <tr>
+                        <th scope="col" class="text-left">Nome do Remédio</th>
+                        <th scope="col" class="text-left">Fabricante</th>
+                        <th scope="col" class="text-right">Valor</th>
+                        <th scope="col" class="text-left">Forma de Uso</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="text-left">Paracetamol</td>
+                        <td class="text-left">GenericPharma</td>
+                        <td class="text-right">R$ 5,00</td>
+                        <td class="text-left">Tomar 1 comprimido a cada 6 horas</td>
+                    </tr>
+                    <tr>
+                        <td class="text-left">Ibuprofeno</td>
+                        <td class="text-left">FarmacoInd</td>
+                        <td class="text-right">R$ 7,50</td>
+                        <td class="text-left">Tomar 1 comprimido a cada 8 horas</td>
+                    </tr>
+                    <tr>
+                        <td class="text-left">Omeprazol</td>
+                        <td class="text-left">GastroLab</td>
+                        <td class="text-right">R$ 10,00</td>
+                        <td class="text-left">Tomar 1 comprimido ao dia antes do café</td>
+                    </tr>
+  
+
+                    
+                </tbody>
+
+            </table>
+        </div>
+    </div>
+    <a href="farmacia.html" class="btn btn-success">Voltar</a>
+
+</body>
+</html>
